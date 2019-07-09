@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Geo",
+	"description": "This extension is to display basic details about a country : Current time, Currency, Currency Conversion ",
+	"version": "1",
+	"author": "Supriya Bansal",
+	"browser_action": {
+		"default_icon": "images/earth.png"
+	},
+	"background": {
+    "scripts": ["js/background.js"]
+  },
+	"permissions": [
+		"activeTab"
+	]
+}
